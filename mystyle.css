@@ -1,0 +1,92 @@
+body{
+	margin: 0;
+}
+
+header{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+main{
+	background-color: black;
+	color: white;
+	text-align: justify;
+	margin: 0;
+}
+
+section{
+	width: 90%;
+	font-size: 20px;
+	display: flex;
+	display: -webkit-flex;
+	margin: 50px auto;
+	padding: 20px;
+	background-color: cadetblue;
+}
+
+footer{
+	background-color: lightblue;
+}
+
+
+/*************Menu*********************/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+/***********************************************/
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 45%;
+  padding: 10px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 85%;
+}
+
+td, th {
+  border: 1px solid #333333;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #333333;
+}
